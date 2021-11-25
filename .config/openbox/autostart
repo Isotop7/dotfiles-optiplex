@@ -1,6 +1,6 @@
-xcompmgr -c &
-#export LANG=de_DE.UTF-8
-#export TERM=rxvt-unicode-256color
+#xcompmgr -c &
+export LANG=de_DE.UTF-8
+export TERM=rxvt-unicode-256color
 #env > ~/env.log
 
 polybar -c ~/.config/polybar/config.ini main &
