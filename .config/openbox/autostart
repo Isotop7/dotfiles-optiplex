@@ -1,0 +1,9 @@
+xcompmgr -c &
+#export LANG=de_DE.UTF-8
+#export TERM=rxvt-unicode-256color
+#env > ~/env.log
+
+polybar -c ~/.config/polybar/config.ini main &
+feh --bg-center ~/Pictures/firewatch.png
+/usr/bin/urxvtd -o >> ~/logs/urxvtd.log &
+autocutsel -f
