@@ -6,7 +6,6 @@ URxvt.internalBorder		: 10
 
 !font
 URxvt.font		: xft:CascadiaMonoPL:autohint=true:size=10,xft:DejaVu Sans Mono:autohint=true:size=10
-!URxvt.font		: xft:CascadiaMonoPL:autohint=true:size=10
 URxvt.letterSpace	: -1
 
 ! Color scheme: eighties.dark

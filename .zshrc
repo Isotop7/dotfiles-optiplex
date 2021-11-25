@@ -108,3 +108,4 @@ export LANG=de_DE.UTF-8
 alias runMenuMaker="mmaker OpenBox -t Rxvt --no-legacy --no-debian -f"
 alias reloadUrxvt="killall urxvt; /usr/bin/urxvtd &"
 alias reloadPolybar="killall -q polybar; polybar -q -c ~/.config/polybar/config.ini main &"
+alias syncDotfiles="cd ~/dev/dotfiles-optiplex; ./syncDotfiles.sh; cd ~-"
