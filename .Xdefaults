@@ -59,3 +59,7 @@ URxvt.keysym.M-v		: perl:clipboard:paste
 URxvt.url-launcher:	/usr/bin/firefox
 URxvt.matcher.button:	1
 URxvt.matcher.rend.0:	Uline Italic fg5
+
+! irssi config
+URxvt.eightBitInput:	false
+URxvt.metaSendsEscape:	true

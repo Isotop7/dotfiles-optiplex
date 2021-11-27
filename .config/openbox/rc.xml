@@ -280,9 +280,9 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>Konqueror</name>
+          <name>Thunar</name>
         </startupnotify>
-        <command>kfmclient openProfile filemanagement</command>
+        <command>thunar</command>
       </action>
     </keybind>
   </keyboard>
