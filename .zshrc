@@ -8,7 +8,7 @@ export ZSH="/home/hendrik/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="miloshadzic" # set by `omz`
+ZSH_THEME="macovsky" # set by `omz`
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -112,3 +112,4 @@ alias syncDotfiles="cd ~/dev/dotfiles-optiplex; ./syncDotfiles.sh; cd ~-"
 alias unbz2="tar -xvjf"
 alias runCruxBuild="rm -f ~/qemu/images/crux_diff.qcow2; qemu-img create -f qcow2 -F qcow2 -b ~/qemu/images/crux.qcow2 ~/qemu/images/crux_diff.qcow2; qemu-system-x86_64 -enable-kvm -smp 4 -hda ~/qemu/images/crux_diff.qcow2 -m 4096"
 alias runCruxBase="qemu-system-x86_64 -enable-kvm -smp 4 -hda ~/qemu/images/crux.qcow2 -m 4096"
+alias feh='feh --conversion-timeout 1'

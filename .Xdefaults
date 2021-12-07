@@ -1,3 +1,4 @@
+URxvt.iconFile			: /usr/share/icons/Tela-green-dark/symbolic/apps/terminal-symbolic.svg
 URxvt.geometry			: 120x26
 URxvt.termName			: rxvt-unicode-256color
 URxvt.perl-ext-common		: default,url-picker,clipboard,matcher

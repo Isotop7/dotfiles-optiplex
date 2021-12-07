@@ -10,6 +10,9 @@
             <item label="mtPaint"> <action name="Execute">
                 <execute>mtpaint</execute>
             </action> </item>
+            <item label="Viewnior"> <action name="Execute">
+                <execute>viewnior</execute>
+            </action> </item>
         </menu>
         <menu id="5" label="Network">
             <item label="Discord"> <action name="Execute">
