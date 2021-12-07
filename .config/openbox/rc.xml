@@ -178,7 +178,7 @@
     <chainQuitKey>C-g</chainQuitKey>
     <keybind key="W-t">
       <action name="Execute">
-        <command>/usr/bin/urxvtc</command>
+        <command>/usr/bin/alacritty</command>
       </action>
     </keybind>
     <keybind key="W-d">

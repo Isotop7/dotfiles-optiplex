@@ -14,7 +14,7 @@ polybar -c ~/.config/polybar/config.ini main &
 feh --bg-center ~/Pictures/firewatch.png
 
 # Start rxvt-unicode daemon
-/usr/bin/urxvtd -o >> ~/logs/urxvtd.log &
+# /usr/bin/urxvtd -o >> ~/logs/urxvtd.log &
 
 # Fork autocutsel
 autocutsel -f
